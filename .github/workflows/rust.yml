@@ -19,6 +19,6 @@ jobs:
     - name: Build
       run: cargo build --verbose
     - name: Run tests
-    - run: tree
+      run: tree
     - run: ./target/debug/main 
     - run: cat hashs | grep 514178daecd21ff5933f7ac0fe1d9073
