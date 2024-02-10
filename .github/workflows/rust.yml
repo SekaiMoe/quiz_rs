@@ -21,4 +21,4 @@ jobs:
     - name: Run tests
       run: ./target/debug/maon
     - name: Run hashes
-    - run: grep -i 514178daecd21ff5933f7ac0fe1d9073 hashes
+      run: grep -i 514178daecd21ff5933f7ac0fe1d9073 hashes
